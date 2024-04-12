@@ -1,0 +1,3 @@
+[submodule "comfyui_to_python"]
+	path = comfyui_to_python
+	url = https://github.com/eyetell/ComfyUI-to-Python-Extension.git
