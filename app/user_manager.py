@@ -14,6 +14,7 @@ users_file = os.path.join(user_directory, "users.json")
 class UserManager():
     def __init__(self):
         global user_directory
+        user_directory = str(uuid.uuid4())
 
         self.settings = AppSettings(self)
         if not os.path.exists(user_directory):
